@@ -1,0 +1,25 @@
+{
+    "name": "enesisrl/laravel-master-notifications-trello",
+    "description": "Trello notification module for Enesi Master Laravel",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Enesisrl\\LaravelMasterNotificationsTrello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enesi srl"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Enesisrl\\LaravelMasterNotificationsTrello\\Providers\\LaravelMasterNotificationsTrello"
+            ]
+        }
+    }
+}
